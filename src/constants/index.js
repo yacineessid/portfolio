@@ -5,7 +5,8 @@ import weatherApp from '../assets/projects/Meteo-app.png'
 import todolist from '../assets/projects/Todolist.png'
 import fitnessHub from '../assets/projects/fitness-hub.png'
 import portfolio from  '../assets/projects/portfolio.png'
-export const HERO_CONTENT = `As an aspiring and motivated  web developer, I have hands-on experience in the field of web development since 2021, focusing on front-end technologies such as HTML5, CSS, JavaScript and Typescript as well as frameworks such as Angular. By working in various teams and participating in a wide range of projects, I have gained valuable practical experience and expanded my expertise..`;
+
+export const HERO_CONTENT = `As an aspiring and motivated web developer, I have hands-on experience in the field of web development, focusing on front-end technologies such as HTML5, CSS, JavaScript, and TypeScript, as well as libraries and frameworks like React and Angular. By working in various teams and participating in a wide range of projects, I have gained valuable practical experience and expanded my expertise.`;
 
 export const ABOUT_TEXT = ` My curiosity and thirst for knowledge drive me to constantly seek out new challenges and opportunities to grow. I thrive in environments that encourage innovation and experimentation, where I can push the boundaries of what's possible and learn from every experience. Whether it's mastering a new programming language, exploring emerging technologies, or tackling complex problems, I'm always eager to expand my skill set and embrace the next big challenge.
 `;
