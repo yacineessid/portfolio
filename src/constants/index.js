@@ -4,7 +4,7 @@ import catAdoption from '../assets/projects/cat-adoption.png'
 import weatherApp from '../assets/projects/Meteo-app.png'
 import todolist from '../assets/projects/Todolist.png'
 import fitnessHub from '../assets/projects/fitness-hub.png'
-
+import portfolio from  '../assets/projects/portfolio.png'
 export const HERO_CONTENT = `As an aspiring and motivated  web developer, I have hands-on experience in the field of web development since 2021, focusing on front-end technologies such as HTML5, CSS, JavaScript and Typescript as well as frameworks such as Angular. By working in various teams and participating in a wide range of projects, I have gained valuable practical experience and expanded my expertise..`;
 
 export const ABOUT_TEXT = ` My curiosity and thirst for knowledge drive me to constantly seek out new challenges and opportunities to grow. I thrive in environments that encourage innovation and experimentation, where I can push the boundaries of what's possible and learn from every experience. Whether it's mastering a new programming language, exploring emerging technologies, or tackling complex problems, I'm always eager to expand my skill set and embrace the next big challenge.
@@ -39,12 +39,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: todolist,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    title: "Fitness-Hub",
+    image: fitnessHub,
+    description:"Achieve your fitness goals with our all-in-one fitness website. Access a variety of exercises, fitness guidance, and nutrition tips tailored to your needs. Stay motivated, track your workouts, and maintain a healthy lifestyle with ease.   ",
+    link:'https://fitness-hub-beryl.vercel.app/',
+
+    technologies: ["HTML", "CSS", "Angular", "Typescript", "Bootstrap"],
   },
+ 
   {
     title: "Todolist App",
     image: todolist,
@@ -73,15 +75,22 @@ export const PROJECTS = [
     title: "Fitness-Hub",
     image: fitnessHub,
     description:"Achieve your fitness goals with our all-in-one fitness website. Access a variety of exercises, fitness guidance, and nutrition tips tailored to your needs. Stay motivated, track your workouts, and maintain a healthy lifestyle with ease.   ",
-    link:'https://meao-manor.vercel.app/',
+    link:'https://fitness-hub-beryl.vercel.app/',
 
     technologies: ["HTML", "CSS", "Angular", "Typescript", "Bootstrap"],
+  },
+  {
+    title: "Portfolio",
+    image: portfolio,
+    description:
+      "Welcome to my portfolio, a showcase of my journey as a web developer and a testament to my passion for crafting beautiful, functional, and user-centric digital experiences. Within these virtual walls, you'll find a collection of projects that represent my skills, creativity, and dedication to the craft.",
+    technologies: ["HTML", "Tailwindcss", "React",'Vite', "Jsx", "Framer","React-icons"],
   },
   {
     title: "Cat Adoption",
     image: catAdoption,
     description:"Find your purr-fect companion with our cat adoption application. Explore profiles of adorable cats available for adoption, learn about their personalities and preferences, and connect with shelters or individuals to give a loving home to a furry friend.  ",
-    link:'https://fitness-hub-beryl.vercel.app/',
+    link:'    https://meao-manor.vercel.app/',
     technologies: ["HTML", "CSS", "Angular", "Typescript", "Bootstrap"],
   },
   {

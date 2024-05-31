@@ -12,7 +12,7 @@ const Profil = () => {
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
+              className="pb-16 text-6xl mt-5 font-thin tracking-tight lg:mt-16 lg:text-6xl"
             >
               Yassine Essid
             </motion.h1>
@@ -41,7 +41,7 @@ const Profil = () => {
             transition={{ duration: 0.5, delay: 0.8 }}
             className="flex justify-center"
           >
-            <img className="rounded-2xl" src={yassine} alt="Yassine Essid" />
+            <img className="rounded-2xl mt-5" src={yassine} alt="Yassine Essid" />
           </motion.div>
         </div>
       </div>

@@ -1,21 +1,27 @@
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 import { PROJECTS } from "../constants";
 
 const Projects = () => {
+  const controls = useAnimation();
+  const { ref, inView } = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      controls.start({ opacity: 1, y: 0 });
+    }
+  }, [controls, inView]);
+
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className="border-b border-neutral-900 pb-4"
-    >
+    <div ref={ref} className="border-b border-neutral-900 pb-4">
       <h1 className="my-20 text-center text-4xl">Projects</h1>
       <div>
         {PROJECTS.map((project, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
+            animate={controls}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="mb-8 flex flex-wrap lg:justify-center"
           >
@@ -31,12 +37,11 @@ const Projects = () => {
                 ))}
               </div>
               <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-purple-500 hover:underline">Visit Project</a>
-
             </div>
           </motion.div>
         ))}
       </div>
-    </motion.div>
+    </div>
   );
 };
 
