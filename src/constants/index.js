@@ -54,7 +54,7 @@ export const PROJECTS = [
     link:'https://task-trek-fawn.vercel.app/',
     description:
       "Stay organized and boost productivity with our user-friendly to-do list application. Easily create, manage, and prioritize tasks, set reminders, and track your progress to accomplish your goals efficiently.",
-    technologies: ["HTML", "CSS", "Angular",],
+    technologies: ["HTML", "CSS", "Angular","Typescript"],
   },
   {
     title: "Weather App",
@@ -70,7 +70,7 @@ export const PROJECTS = [
     description:"Take control of your finances with our comprehensive budget planner application. Track your income, expenses, and savings goals effortlessly. Set budgets for various categories, visualize your spending patterns, and make informed financial decisions.    ",
     link:'https://smart-spend-inky.vercel.app/',
 
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "Angular","Typescript","bootstrap" ],
   },
   {
     title: "Fitness-Hub",
