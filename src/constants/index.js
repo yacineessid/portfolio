@@ -13,7 +13,7 @@ export const ABOUT_TEXT = ` My curiosity and thirst for knowledge drive me to co
 
 export const EXPERIENCES = [
   {
-    year: "11-2021 - 12-2023",
+    year: "11/2021 - 12/2023",
     role: "Frontend Developer",
     company: "Euro tech conseil.",
     description:'I am responsible for integrating web interfaces using HTML5, CSS, Angular Material, Flex Layout, and Bootstrap, as well as developing reusable Angular components. My role includes integrating backend APIs and creating services for APIs and shared functions. I assist in developing and implementing new features within existing applications and actively participate in optimizing user experience and application performance through continuous improvement of both front-end and back-end components. Additionally, I participate in code reviews to enhance code quality, fix bugs, and resolve code conflicts, ensuring smooth and efficient application operation.',
