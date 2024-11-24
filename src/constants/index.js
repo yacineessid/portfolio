@@ -13,21 +13,21 @@ export const ABOUT_TEXT = ` My curiosity and thirst for knowledge drive me to co
 
 export const EXPERIENCES = [
   {
-    year: "2021 - Present",
+    year: "11-2021 - 12-2023",
     role: "Frontend Developer",
     company: "Euro tech conseil.",
     description:'I am responsible for integrating web interfaces using HTML5, CSS, Angular Material, Flex Layout, and Bootstrap, as well as developing reusable Angular components. My role includes integrating backend APIs and creating services for APIs and shared functions. I assist in developing and implementing new features within existing applications and actively participate in optimizing user experience and application performance through continuous improvement of both front-end and back-end components. Additionally, I participate in code reviews to enhance code quality, fix bugs, and resolve code conflicts, ensuring smooth and efficient application operation.',
     technologies: [ "Html5","Css","Javascript","Typescript","Angular","Reactjs","Bootstrap","Angular-material","Git","Gitlab","Sonarquebe"],
   },
   {
-    year: "2017 - 2021",
+    year: "10/2017 - 02/2021",
     role: "Marketing Coordinator",
     company: "Kairouan voyage",
     description: `I am responsible for designing and creating engaging digital brochures and other marketing materials to promote the travel agency's offerings. My role includes entering hotel reservations, as well as requesting and following up on special promotions to ensure optimal customer experiences and satisfaction.`,
     technologies: ["Photoshop", "Canva", "Social Media Platforms"],
   },
   {
-    year: "2015 - 2017",
+    year: "02/2015 - 08/2017",
     role: "Marketing  cordinator",
     company: "Satiha",
     description: `As a Marketing and Web Coordinator at a travel agency, I was responsible for entering all contracts and hotel reservations, as well as updating and maintaining the agency's website to ensure accurate and up-to-date information on travel contracts, hotel bookings, and special promotions. I collaborated with an external development team to implement website improvements, including new features and usability enhancements. Additionally, I created and designed visual content for the website, such as new pages, digital brochures, and graphic elements.`,
