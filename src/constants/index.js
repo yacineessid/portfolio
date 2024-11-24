@@ -73,14 +73,6 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Angular","Typescript","bootstrap" ],
   },
   {
-    title: "Fitness-Hub",
-    image: fitnessHub,
-    description:"Achieve your fitness goals with our all-in-one fitness website. Access a variety of exercises, fitness guidance, and nutrition tips tailored to your needs. Stay motivated, track your workouts, and maintain a healthy lifestyle with ease.   ",
-    link:'https://fitness-hub-beryl.vercel.app/',
-
-    technologies: ["HTML", "CSS", "Angular", "Typescript", "Bootstrap"],
-  },
-  {
     title: "Portfolio",
     image: portfolio,
     description:
