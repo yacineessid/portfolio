@@ -96,6 +96,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  phoneNo: "+216 22 439 502 ",
+  phoneNo: "+4915510459824 ",
   email: "yacine.essid@gmail.com",
 };
